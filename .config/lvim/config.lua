@@ -115,17 +115,6 @@ lvim.plugins = {
     {
       "p00f/nvim-ts-rainbow",
     },
-    {
-      "ahmedkhalf/project.nvim",
-      config = function()
-        require("project_nvim").setup {
-          -- your configuration comes here
-          -- or leave it empty to use the default settings
-          -- refer to the configuration section below
-        }
-        require('telescope').load_extension('projects')
-      end
-    },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
