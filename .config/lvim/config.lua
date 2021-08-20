@@ -73,6 +73,10 @@ lvim.builtin.treesitter.highlight.enabled = true
 --     }
 -- }
 lvim.plugins = {
+  -- Color schemes
+  { 'projekt0n/github-nvim-theme' },
+  { 'rose-pine/neovim', as = 'rose-pine' },
+
   { "tpope/vim-eunuch" },
   { "kdheepak/lazygit.nvim" },
   {
