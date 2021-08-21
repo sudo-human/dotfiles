@@ -37,6 +37,7 @@ lvim.builtin.nvimtree.show_icons.git = 0
 lvim.builtin.treesitter.ensure_installed = {}
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enabled = true
+lvim.builtin.treesitter.rainbow.enable = true
 
 -- generic LSP settings
 -- you can set a custom on_attach function that will be used for all the language servers
@@ -97,3 +98,6 @@ lvim.plugins = {
 -- lvim.autocommands.custom_groups = {
 --   { "BufWinEnter", "*.lua", "setlocal ts=8 sw=8" },
 -- }
+
+-- Plugin Settings
+
